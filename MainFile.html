@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна 2</title>
+    <link rel="stylesheet" href="AdditionalFile.css">
+    <style>
+		
+        div
+		{
+        width: 150px; 
+        height: 150px; 
+        background-color: red;
+        }
+		
+		.class1
+		{
+		background-color:green;
+		}
+		
+		.Bazhaniyclass
+		{
+		background-color:gray;
+		}
+		
+		.classforimages
+		{
+		position:fixed;
+		top: 50px;
+		right: 10px;
+		}
+		
+		.classforimages2
+		{
+		position:fixed;
+		right: 50px;
+		bottom: 10px;
+		}
+		
+		.classforimagesNormal
+		{
+		float:left;
+		margin:10px;
+		margin-top: 0px;
+		}
+		
+		.classforfloattext
+		{
+		float: right;
+		background-color: white;
+		}
+		
+		#footer
+		{
+        height: 80px;
+		width: 1270px;
+        }
+		
+		.sviy-variant-2-row-1
+		{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		background-color: white;
+        height: auto;
+		width: auto;
+		}
+		
+		.sviy-variant-2-row-2
+		{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		background-color: white;
+        height: auto;
+		width: auto;
+		}
+		
+		#kvadrat
+		{
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+		margin: 10px;
+		}
+
+		#pryamokutnik
+		{
+		width: 100px;
+		height: 200px;
+		background-color: blue;
+		margin: 10px;
+		order: 0;
+		}
+		
+    </style>
+</head>
+<body>
+
+	<h1>Стилі</h1>
+
+	<h2>Стилі</h2>
+
+    <h3 style="color:gray;">Стилі</h3>
+
+	<div>Це буде просто текст для тестування оцього стилю</div>
+	<div class="class1">А ось це буде текст для тестування классу</div>
+	<div class="Bazhaniyclass">Цей текст повинен відображатися</div>
+	<div id="footer">Тут Футер</div>
+	
+	<img src="Зображення1.png" alt="Опис" class="classforimages" width="300px" height="150px">
+	<img src="Зображення2.png" alt="Опис" class="classforimages2" width="240px" height="100px">	
+	
+	<img src="Зображення3.png" alt="Опис" class="classforimagesNormal" width="300px" height="300px">	
+	<div class="classforfloattext">Цей текст повинен обтікати зображення</div>
+	<div class="classforfloattext">І цей текст також повинен обтікати зображення</div>
+	
+	<ul class="marker">
+        <li>Перший</li>
+        <li>Другий</li>
+        <li>Третій</li>
+		<li>Четвертий</li>
+        <li>П'ятий</li>
+        <li>Шостий</li>
+		<li>Сьомий</li>
+        <li>Восьмий</li>
+        <li>Дев'ятий</li>
+    </ul>
+	
+	<div class="sviy-variant-2-row-1">
+        <div id="kvadrat"></div>
+        <div id="pryamokutnik"></div>
+        <div id="kvadrat"></div>
+    </div>
+	
+	<div class="sviy-variant-2-row-2">
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+        <div id="kvadrat"></div>
+    </div>
+	
+</body>
+</html>

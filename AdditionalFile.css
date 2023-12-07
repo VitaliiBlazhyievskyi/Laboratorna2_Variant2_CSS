@@ -1,0 +1,22 @@
+h1
+{
+    color:blue;
+}
+
+h2
+{
+    color:green;
+}
+
+.marker
+{
+    list-style-type: none;
+}
+
+.marker li:before
+{
+    content: url('Зображення для CSS.png');
+	width: 20px;
+	height: 20px;
+    margin-right: 10px;
+}
